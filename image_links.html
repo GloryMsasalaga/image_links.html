@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+    body {
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header, nav, main, footer {
+        padding: 20px;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    a {
+        text-decoration:none;
+        color: #333;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+    header {
+        background-color: #f5f5f5;
+    }
+    nav li{
+        margin: 0 10px;
+    }
+    main {
+        max-width: 800px;
+        margin:  0 auto;
+    }
+    section {
+        margin-bottom: 40px;
+    }
+    h1, h2 {
+        color:#333;
+    }
+    
+    .grid-container {
+            display: grid;
+            grid-template-columns:repeat(3, 1fr);
+            gap: 20px;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Page!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="Home">
+            <h2>Home</h2>
+            <p1>
+                Welcome to our page!
+            </p1>
+            <p2>Technology refers to the application of scientific knowledge for practical purposes, especially in industry and commerce. Here's an image related to technology:</p2>
+            <a href="https://static1.makeuseofimages.com/wp-content/uploads/2014/09/tech-change-world.jpg">
+                <img src="tech-change-world (1).jpg" alt="Technology Image">
+            </a>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Check out these Nature images related to:</p>
+            <div class="grid-container">
+                <a href="https://th.bing.com/th/id/OIP._F0FenWqzCscYdzNamBFWAAAAA?w=450&h=299&rs=1&pid=ImgDetMain">
+                    <img src="1893221-bigthumbnail.jpg">
+                </a>
+                <a href="https://th.bing.com/th/id/OIP.efK_7_v3nlSNdRLDBsaMiAHaEo?w=244&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7">
+                    <img src="247388-landscape-nature-beach-sunset-clouds-sea-sky-flowers-water-colorful-coast-calm-sunlight.jpg">
+                </a>
+                <a href="https://i.pinimg.com/originals/0f/d8/c9/0fd8c9313f475730e97b57e3b9639ef7.jpg">
+                    <img src="Spriing.jpg">
+                </a>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h3>Menu</h3>
+            <p>Explore our delicious food items:</p>
+            <ul>
+                <li><a href="https://cdn.tasteatlas.com/images/dishes/41ca6dfc48714647a813a6c1333a9e94.jpg"><img src="African food.jpg">African Food</a></li>
+                <li><a href="https://th.bing.com/th/id/OIP.7QmBs912uHoGJk0mH_sjCQHaHa?rs=1&pid=ImgDetMain"><img src="Salad.jpg">Salad</a></li>
+                <li><a href="https://th.bing.com/th/id/OIP.tQ0SIObOLDaIivwxTBGwVgHaE7?pid=ImgDet&w=192&h=128&c=7&dpr=1.5"><img src="Fast food.jpg">Fast food</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lahempo Company. All rights reserved</p>
+    </footer>
+</body>
+</html>
